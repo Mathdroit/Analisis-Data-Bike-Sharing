@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 # Load dataset
-main_data = pd.read_csv("D:/Bangkit/Proyek AKhir/Bike-sharing-dataset/main_data.csv", sep=";")
+main_data = pd.read_csv("main_data.csv", sep=";")
 main_data['dteday'] = pd.to_datetime(main_data['dteday'], format="%d/%m/%Y")
 
 
